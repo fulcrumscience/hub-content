@@ -66,6 +66,7 @@ Comprehensive teaching materials covering molecular representations, fingerprint
 | [awesome-python-chemistry](https://github.com/lmmentel/awesome-python-chemistry) | Python tools |
 | [awesome-chemistry-datasets](https://github.com/kjappelbaum/awesome-chemistry-datasets) | ML datasets |
 | [awesome-ai4chem](https://github.com/sherrylixuecheng/awesome-ai4chem) | AI for chemistry papers |
+| [awesome-drug-discovery](https://github.com/yboulaamane/awesome-drug-discovery) | Drug discovery resources |
 
 ---
 

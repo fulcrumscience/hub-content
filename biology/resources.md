@@ -32,14 +32,6 @@ Practical ML/AI models for drug discovery, aimed at life science and safety scie
 
 | List | Focus |
 |------|-------|
+| [awesome-computational-biology](https://github.com/inoue0426/awesome-computational-biology) | Comprehensive computational biology |
 | [awesome-small-molecule-ml](https://github.com/benb111/awesome-small-molecule-ml) | Drug discovery ML |
-
----
-
-## Coming Soon
-
-We're working on adding resources for:
-
-- **AlphaFold & Protein Structure** — Structure prediction tutorials
-- **Protein Design** — Generative models for proteins
-- **Genomics ML** — Sequence models, gene expression
+| [awesome-drug-discovery](https://github.com/yboulaamane/awesome-drug-discovery) | Drug discovery resources |
