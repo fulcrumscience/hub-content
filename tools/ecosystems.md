@@ -79,3 +79,48 @@ conda activate ai4science
 conda install -c conda-forge rdkit
 pip install pymatgen matminer deepchem jupyter pandas scikit-learn torch
 ```
+
+---
+
+## Awesome Lists
+
+Curated resource collections for finding more tools and papers.
+
+### General
+
+| List | Focus |
+|------|-------|
+| [awesome-ai-for-science](https://github.com/ai-boost/awesome-ai-for-science) | AI tools for scientific research |
+
+### Chemistry & Drug Discovery
+
+| List | Focus |
+|------|-------|
+| [awesome-cheminformatics](https://github.com/hsiaoyi0504/awesome-cheminformatics) | Cheminformatics tools |
+| [awesome-python-chemistry](https://github.com/lmmentel/awesome-python-chemistry) | Python chemistry tools |
+| [awesome-chemistry-datasets](https://github.com/kjappelbaum/awesome-chemistry-datasets) | ML datasets |
+| [awesome-drug-discovery](https://github.com/yboulaamane/awesome-drug-discovery) | Drug discovery |
+| [awesome-molecular-generation](https://github.com/amorehead/awesome-molecular-generation) | Molecular generation |
+
+### Biology & Proteins
+
+| List | Focus |
+|------|-------|
+| [awesome-protein-design](https://github.com/johnnytam100/awesome-protein-design) | Protein design papers |
+| [awesome-protein-design-software](https://github.com/pansapiens/awesome-protein-design-software) | Protein design tools |
+| [awesome-computational-biology](https://github.com/inoue0426/awesome-computational-biology) | Computational biology |
+
+### Materials Science
+
+| List | Focus |
+|------|-------|
+| [awesome-materials-informatics](https://github.com/tilde-lab/awesome-materials-informatics) | Materials informatics |
+| [Best of Atomistic ML](https://github.com/JuDFTteam/best-of-atomistic-machine-learning) | Atomistic ML |
+
+### Methods & ML
+
+| List | Focus |
+|------|-------|
+| [awesome-scientific-language-models](https://github.com/yuzhimanhua/Awesome-Scientific-Language-Models) | Scientific LLMs |
+| [awesome-scientific-machine-learning](https://github.com/MartinuzziFrancesco/awesome-scientific-machine-learning) | SciML resources |
+| [awesome-pinn](https://github.com/idrl-lab/awesome-pinn) | Physics-informed NNs |

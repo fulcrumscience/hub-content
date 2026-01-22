@@ -129,15 +129,30 @@ Software libraries and frameworks for cheminformatics and computational chemistr
 
 ## Molecular Design & Generation
 
+### Generative Models
+
 | Tool | Description | Link |
 |------|-------------|------|
 | **GraphINVENT** | Graph-based molecular generation | [github](https://github.com/MolecularAI/GraphINVENT) |
-| **GuacaMol** | Benchmarking for de novo molecular design | [github](https://github.com/BenevolentAI/guacamol) |
-| **MOSES** | Benchmarking platform for molecular generation | [github](https://github.com/molecularsets/moses) |
+| **REINVENT** | Reinforcement learning for molecular design | [github](https://github.com/MolecularAI/REINVENT4) |
 | **hgraph2graph** | Hierarchical molecular graph generation | [github](https://github.com/wengong-jin/hgraph2graph) |
 | **stk** | Building, manipulating, analyzing molecules | [github](https://github.com/lukasturcani/stk) |
 | **perses** | Expanded ensembles for chemical space exploration | [github](https://github.com/choderalab/perses) |
-| **REINVENT** | Reinforcement learning for molecular design | [github](https://github.com/MolecularAI/REINVENT4) |
+
+### Diffusion Models
+
+| Tool | Description | Link |
+|------|-------------|------|
+| **GeoDiff** | Geometric diffusion for molecular conformation | [Paper](https://arxiv.org/abs/2203.02923) |
+| **EDM** | Equivariant diffusion for 3D molecules | [Paper](https://arxiv.org/abs/2203.17003) |
+| **DiffSBDD** | Structure-based drug design via diffusion | [github](https://github.com/arneschneuing/DiffSBDD) |
+
+### Benchmarks
+
+| Tool | Description | Link |
+|------|-------------|------|
+| **GuacaMol** | Benchmarking for de novo molecular design | [github](https://github.com/BenevolentAI/guacamol) |
+| **MOSES** | Benchmarking platform for molecular generation | [github](https://github.com/molecularsets/moses) |
 
 ---
 
@@ -289,6 +304,7 @@ Software libraries and frameworks for cheminformatics and computational chemistr
 | [awesome-cheminformatics](https://github.com/hsiaoyi0504/awesome-cheminformatics) | Tools & libraries |
 | [awesome-python-chemistry](https://github.com/lmmentel/awesome-python-chemistry) | Python tools |
 | [awesome-drug-discovery](https://github.com/yboulaamane/awesome-drug-discovery) | Drug discovery resources |
+| [awesome-molecular-generation](https://github.com/amorehead/awesome-molecular-generation) | Molecular generation papers |
 | [awesome-small-molecule-ml](https://github.com/benb111/awesome-small-molecule-ml) | Drug discovery papers |
 | [awesome-molecular-docking](https://github.com/yangnianzu0515/awesome-molecular-docking) | Molecular docking |
 

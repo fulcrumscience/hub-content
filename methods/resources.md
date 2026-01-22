@@ -137,6 +137,8 @@ Andrej Karpathy's tutorial series — the best starting point for understanding 
 | **DeepONet** | Deep operator networks | [Paper](https://arxiv.org/abs/1910.03193) / [Code](https://github.com/lululxvi/deeponet) |
 | **Fourier Neural Operator** | Learning in Fourier space | [Paper](https://arxiv.org/abs/2010.08895) |
 | **SINDy** | Sparse identification of dynamical systems | [Paper](https://arxiv.org/abs/1509.03580) |
+| **NVIDIA PhysicsNeMo** | Framework for physics-ML models | [github](https://github.com/NVIDIA/physicsnemo) |
+| **PINA** | Physics-informed networks in PyTorch | [github](https://github.com/mathLab/PINA) |
 
 ### SciML Software
 
@@ -176,10 +178,52 @@ Andrej Karpathy's tutorial series — the best starting point for understanding 
 
 ---
 
+## AI Tools for Research
+
+### Document Parsing & Processing
+
+| Tool | Description | Link |
+|------|-------------|------|
+| **MinerU** | SOTA document parsing (1.2B params) | [github](https://github.com/opendatalab/MinerU) |
+| **Docling** | Multi-format conversion with layout reconstruction | [IBM](https://research.ibm.com/publications/docling-an-efficient-open-source-toolkit-for-ai-driven-document-conversion) |
+| **Nougat** | Academic document understanding | [github](https://github.com/facebookresearch/nougat) |
+| **GROBID** | Metadata extraction using ML | [github](https://github.com/kermitt2/grobid) |
+| **Marker** | PDF to Markdown/JSON conversion | [github](https://github.com/datalab-to/marker) |
+| **PaperQA2** | High-accuracy RAG for PDFs with citations | [github](https://github.com/future-house/paper-qa) |
+
+### Paper-to-Code & Reproducibility
+
+| Tool | Description | Link |
+|------|-------------|------|
+| **AutoP2C** | LLM agent generating repos from papers | [arxiv](https://arxiv.org/abs/2504.20115) |
+| **ResearchCodeAgent** | Multi-agent codification system | [arxiv](https://arxiv.org/abs/2504.20117) |
+
+### Research Agents
+
+| Agent | Description | Link |
+|-------|-------------|------|
+| **The AI Scientist** | Autonomous research system | [arxiv](https://arxiv.org/abs/2408.06292) |
+| **ChemCrow** | Chemistry research agents | [arxiv](https://arxiv.org/abs/2304.05376) |
+| **BioDiscoveryAgent** | Biological discovery automation | [github](https://github.com/snap-stanford/BioDiscoveryAgent) |
+| **ToolUniverse** | 600+ scientific tools (Harvard) | [github](https://github.com/mims-harvard/ToolUniverse) |
+
+### Literature & Knowledge Management
+
+| Tool | Description | Link |
+|------|-------------|------|
+| **Semantic Scholar** | AI-powered academic search | [semanticscholar.org](https://www.semanticscholar.org/) |
+| **OpenAlex** | Open scholarly papers catalog | [openalex.org](https://openalex.org/) |
+| **Research Rabbit** | Literature discovery platform | [researchrabbit.ai](https://www.researchrabbit.ai/) |
+| **Jupyter AI** | JupyterLab AI extension | [github](https://github.com/jupyterlab/jupyter-ai) |
+
+---
+
 ## Awesome Lists
 
 | List | Focus |
 |------|-------|
+| [awesome-ai-for-science](https://github.com/ai-boost/awesome-ai-for-science) | AI tools for scientific research |
 | [awesome-learning-digital-chemistry](https://github.com/mlederbauer/awesome-learning-digital-chemistry) | General learning resources |
 | [awesome-scientific-language-models](https://github.com/yuzhimanhua/Awesome-Scientific-Language-Models) | Scientific LLMs |
 | [awesome-scientific-machine-learning](https://github.com/MartinuzziFrancesco/awesome-scientific-machine-learning) | SciML resources |
+| [awesome-pinn](https://github.com/idrl-lab/awesome-pinn) | Physics-informed neural networks |

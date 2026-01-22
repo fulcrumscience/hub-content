@@ -4,7 +4,7 @@ A curated collection of resources for applying AI and machine learning to scient
 
 ## Mission
 
-The AI4Science Hub exists to **lower the barrier** for researchers entering the intersection of AI and science. We curate, organize, and present the best learning resources so you can focus on learning, not searching.
+The AI4Science Hub exists to lower the barrier for researchers entering the intersection of AI and science. We curate, organize, and present the best resources so you can focus on learning, not searching.
 
 ## What We Curate
 
@@ -54,7 +54,5 @@ Special thanks to:
 ---
 
 ## License
-
-Content is licensed under [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) — free to use, share, and adapt.
 
 The site code is open source under MIT license.
