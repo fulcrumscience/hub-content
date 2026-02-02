@@ -33,6 +33,7 @@ Benchmark datasets for drug discovery, protein science, and computational biolog
 
 | Dataset | Description | Link |
 |---------|-------------|------|
+| **Berkeley Drosophila Genome Project** | Drosophila genome annotations and data | [ml4sci](https://ml4sci.lbl.gov/bdgp) |
 | **Gene Expression Omnibus** | Public functional genomics data | [ncbi.nlm.nih.gov/geo](https://www.ncbi.nlm.nih.gov/geo/) |
 | **Single Cell Portal** | Single cell RNA data | [singlecell.broadinstitute.org](https://singlecell.broadinstitute.org/single_cell) |
 | **Single Cell Expression Atlas** | scRNA atlas | [ebi.ac.uk/gxa/sc](https://www.ebi.ac.uk/gxa/sc/home) |
@@ -46,6 +47,7 @@ Benchmark datasets for drug discovery, protein science, and computational biolog
 
 | Dataset | Description | Link |
 |---------|-------------|------|
+| **Open MSI** | Mass spectrometry imaging data and analysis | [ml4sci](https://ml4sci.lbl.gov/openmsi) |
 | **NCI60** | Cancer cell line screening | [dtp.cancer.gov](https://dtp.cancer.gov/discovery_development/nci-60/) |
 | **GDSC** | Genomics of Drug Sensitivity | [cancerrxgene.org](https://www.cancerrxgene.org/) |
 | **CCLE** | Cancer Cell Line Encyclopedia | [broadinstitute.org/ccle](https://sites.broadinstitute.org/ccle/) |

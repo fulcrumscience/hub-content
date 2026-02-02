@@ -30,7 +30,19 @@ Datasets for machine learning in physics, computational fluid dynamics, and scie
 | Dataset | Description | Link |
 |---------|-------------|------|
 | **CERN Open Data** | LHC collision data and simulations | [opendata.cern.ch](https://opendata.cern.ch/) |
+| **CaloGAN** | Deep generative models for calorimeter simulations | [ml4sci](https://ml4sci.lbl.gov/calogan) |
+| **LHC Olympics** | Anomaly detection challenge dataset | [ml4sci](https://ml4sci.lbl.gov/lhcolympics) |
+| **Inference with DCTR** | Direct comparison to reference for inference | [ml4sci](https://ml4sci.lbl.gov/dctr) |
+| **Unfolding with OmniFold** | ML-based unfolding for particle physics | [ml4sci](https://ml4sci.lbl.gov/omnifold) |
 | **Kaggle HEP** | Particle physics ML challenges | [kaggle](https://www.kaggle.com/competitions?search=physics) |
+
+---
+
+## Cosmology
+
+| Dataset | Description | Link |
+|---------|-------------|------|
+| **CosmoFlow** | ~10,000 cosmological N-body dark matter simulations | [ml4sci](https://ml4sci.lbl.gov/cosmoflow) |
 
 ---
 
