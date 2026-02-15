@@ -1,0 +1,17 @@
+name: Notify hub-site of content update
+
+on:
+  push:
+    branches: [main]
+
+jobs:
+  trigger-rebuild:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Trigger hub-site deploy
+        run: |
+          curl -X POST \
+            -H "Accept: application/vnd.github.v3+json" \
+            -H "Authorization: token ${{ secrets.HUB_SITE_DISPATCH_TOKEN }}" \
+            https://api.github.com/repos/fulcrumscience/hub-site/dispatches \
+            -d '{"event_type": "content-updated"}'
