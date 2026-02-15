@@ -40,6 +40,7 @@ Benchmark datasets for drug discovery, protein science, and computational biolog
 | **10x Genomics Datasets** | Single-cell datasets | [10xgenomics.com](https://www.10xgenomics.com/resources/datasets) |
 | **GTEx** | Gene expression and regulation | [gtexportal.org](https://gtexportal.org/home/) |
 | **DepMap** | CRISPR screens in cancer cells | [depmap.org](https://depmap.org/portal/) |
+| **Open Problems** | Standardized benchmarks for single-cell tasks (batch integration, denoising, label projection, etc.) | [openproblems.bio](https://openproblems.bio/) |
 
 ---
 

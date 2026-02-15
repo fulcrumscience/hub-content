@@ -28,6 +28,14 @@ Practical ML/AI models for drug discovery, aimed at life science and safety scie
 
 ---
 
+## Benchmarks & Challenges
+
+| Resource | Focus |
+|----------|-------|
+| [Open Problems in Single-Cell Analysis](https://openproblems.bio/) | Community benchmarking for single-cell methods ([Nature Biotechnology, 2025](https://doi.org/10.1038/s41587-025-02694-w)) |
+
+---
+
 ## Awesome Lists
 
 | List | Focus |

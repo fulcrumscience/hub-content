@@ -91,6 +91,7 @@ Software libraries for drug discovery and computational biology.
 | **scGPT** | Transformer model for single-cell | [github](https://github.com/bowang-lab/scGPT) |
 | **scFoundation** | Single-cell foundation model | [github](https://github.com/biomap-research/scFoundation) |
 | **scPRINT** | Cell imputation model | [github](https://github.com/cantinilab/scPRINT) |
+| **Open Problems** | Community benchmarking platform for single-cell methods — tasks, metrics, and leaderboards | [openproblems.bio](https://openproblems.bio/) |
 
 ---
 
