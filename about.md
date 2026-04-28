@@ -1,10 +1,10 @@
 # About AI4Science Hub
 
-A curated collection of resources for applying AI and machine learning to scientific research.
-
 ## Mission
 
 The AI4Science Hub exists to lower the barrier for researchers entering the intersection of AI and science. We curate, organize, and present the best resources so you can focus on learning, not searching.
+
+This is an open resource. We welcome [contributions](/README#contributing) from the community.
 
 ## What We Curate
 
@@ -20,27 +20,6 @@ The AI4Science Hub exists to lower the barrier for researchers entering the inte
 2. **Practicality** — Resources should be actionable, not just theoretical
 3. **Accessibility** — We prefer free, open-access materials when possible
 4. **Currency** — We actively maintain and update our listings
-
-## Contributing
-
-This is an open resource. We welcome contributions from the community.
-
-### How to Contribute
-
-1. **Add a resource** — Open a pull request with the new material
-2. **Fix an error** — Issues and PRs welcome
-3. **Suggest improvements** — Open a discussion
-
-### Contribution Guidelines
-
-- Resources should be high quality and actively maintained
-- Prefer open-access materials
-- Include a brief description of what makes the resource valuable
-- Check that links work
-
-[Contribute on GitHub →](https://github.com/yourusername/ai4science-hub)
-
----
 
 ## Acknowledgments
 

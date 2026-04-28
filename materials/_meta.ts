@@ -1,9 +1,7 @@
 const meta = {
-  index: 'Overview',
-  resources: 'Resources',
-  datasets: 'Datasets',
-  tools: 'Tools',
-  tutorials: 'Tutorials'
+  index: { display: 'hidden', title: 'Overview' },
+  'property-prediction': 'Property Prediction',
+  'neural-network-potentials': 'Neural Network Potentials',
+  'materials-discovery': 'Materials Discovery'
 }
-
 export default meta

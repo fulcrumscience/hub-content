@@ -1,9 +1,8 @@
 const meta = {
-  index: 'Overview',
-  resources: 'Resources',
-  datasets: 'Datasets',
-  tools: 'Tools',
-  tutorials: 'Tutorials'
+  index: { display: 'hidden', title: 'Overview' },
+  cheminformatics: 'Cheminformatics',
+  'molecular-generation': 'Molecular Generation',
+  'reaction-prediction': 'Reaction Prediction',
+  'quantum-chemistry': 'Quantum Chemistry'
 }
-
 export default meta

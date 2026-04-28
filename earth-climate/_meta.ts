@@ -1,7 +1,7 @@
 const meta = {
-  index: 'Overview',
-  datasets: 'Datasets',
-  resources: 'Resources'
+  index: { display: 'hidden', title: 'Overview' },
+  'climate-modeling': 'Climate Modeling',
+  'weather-forecasting': 'Weather Forecasting',
+  'remote-sensing': 'Remote Sensing'
 }
-
 export default meta

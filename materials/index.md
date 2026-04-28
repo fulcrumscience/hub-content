@@ -1,45 +1,23 @@
+---
+breadcrumb: false
+type: page
+---
+
 # Materials Science
 
 AI and machine learning for materials discovery, property prediction, and design.
 
-## Overview
-
-Materials informatics applies ML to understand, predict, and design new materials. Key areas include:
-
-- **Property Prediction** — Predicting material properties from structure
-- **Materials Discovery** — Finding new materials with desired properties
-- **Neural Network Potentials** — ML-based interatomic potentials
-- **Self-Driving Labs** — Autonomous experimentation
-
-## Quick Start
-
-| Goal | Resource |
-|------|----------|
-| Learn materials ML | [Resources](/materials/resources) — ML for Materials (ICL) |
-| Hands-on tutorials | [Tutorials](/materials/tutorials) — matminer, transformers |
-| Explore tools | [Tools](/materials/tools) — pymatgen, ASE |
-| Find datasets | [Datasets](/materials/datasets) — Materials Project, AFLOW |
-
-## Communities
-
-### LeMaterial
-**[lematerial.org](https://lematerial.org/)**
-
-Open-source collaborative project for materials research.
-
-- **Working Groups:** Large Language Models, Generative Models, Benchmarks
-- **Format:** Slack community + monthly meetings
-
-## Key Research Groups
-
-- **Aspuru-Guzik Group** (Toronto) — Self-driving labs, materials
-- **Walsh Group** (ICL) — ML for materials
-- **Jablonka/LlamaLab** — LLMs for materials
-- **Sparks Group** (Utah) — Materials informatics
-
-## Conferences
-
-| Conference | Focus | Timing |
-|------------|-------|--------|
-| MRS | Materials research | Spring/Fall |
-| AI4Mat (NeurIPS) | ML for materials | December |
+<div class="hub-topics">
+  <a class="hub-topic-tile" href="/materials/property-prediction">
+    <span class="hub-topic-name">Property Prediction</span>
+    <span class="hub-topic-desc">ML models for material property prediction</span>
+  </a>
+  <a class="hub-topic-tile" href="/materials/neural-network-potentials">
+    <span class="hub-topic-name">Neural Network Potentials</span>
+    <span class="hub-topic-desc">Machine learning interatomic potentials</span>
+  </a>
+  <a class="hub-topic-tile" href="/materials/materials-discovery">
+    <span class="hub-topic-name">Materials Discovery</span>
+    <span class="hub-topic-desc">High-throughput screening, self-driving labs</span>
+  </a>
+</div>
