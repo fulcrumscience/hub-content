@@ -9,8 +9,12 @@ AI and machine learning applications in physics — from simulation acceleration
 
 <div class="hub-topics">
   <a class="hub-topic-tile" href="/physics/simulation">
-    <span class="hub-topic-name">Simulation & Surrogates</span>
-    <span class="hub-topic-desc">ML acceleration of physics simulations</span>
+    <span class="hub-topic-name">Simulation & SciML</span>
+    <span class="hub-topic-desc">ML acceleration of physics simulations and PDE solving</span>
+  </a>
+  <a class="hub-topic-tile" href="/physics/high-energy-physics">
+    <span class="hub-topic-name">High Energy & Astrophysics</span>
+    <span class="hub-topic-desc">Particle physics, cosmology, and observational astronomy datasets</span>
   </a>
   <a class="hub-topic-tile" href="/physics/symbolic-regression">
     <span class="hub-topic-name">Symbolic Regression</span>

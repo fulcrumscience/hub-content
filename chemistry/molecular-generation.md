@@ -92,20 +92,44 @@ Generative models for drug and material design — VAEs, RL-based, diffusion, an
 
 ### Chemical Libraries
 
-| Dataset | Description |
-|---------|-------------|
-| [**ZINC20**](https://files.docking.org/zinc20-ML/) | Chemical library for deep docking virtual screening |
-| [**ZINC22**](https://cartblanche22.docking.org/) | Commercially-available compounds for virtual screening |
-| [**GDB**](https://gdb.unibe.ch/downloads/) | Enumerated molecules following chemical feasibility rules |
-| [**Enamine HTS**](https://enamine.net/compound-collections/screening-collection/hts-collection) | 1.93 million diverse screening compounds |
+<div class="hub-dataset-grid">
+  <a class="hub-dataset-card" href="https://files.docking.org/zinc20-ML/" target="_blank" rel="noopener noreferrer">
+    <span class="hub-dataset-name">ZINC20</span>
+    <span class="hub-dataset-desc">Chemical library for deep docking virtual screening</span>
+  </a>
+  <a class="hub-dataset-card" href="https://cartblanche22.docking.org/" target="_blank" rel="noopener noreferrer">
+    <span class="hub-dataset-name">ZINC22</span>
+    <span class="hub-dataset-desc">Commercially-available compounds for virtual screening</span>
+  </a>
+  <a class="hub-dataset-card" href="https://gdb.unibe.ch/downloads/" target="_blank" rel="noopener noreferrer">
+    <span class="hub-dataset-name">GDB</span>
+    <span class="hub-dataset-desc">Enumerated molecules following chemical feasibility rules</span>
+  </a>
+  <a class="hub-dataset-card" href="https://enamine.net/compound-collections/screening-collection/hts-collection" target="_blank" rel="noopener noreferrer">
+    <span class="hub-dataset-name">Enamine HTS</span>
+    <span class="hub-dataset-desc">1.93 million diverse screening compounds</span>
+  </a>
+</div>
 
 ### LLM & Generation Datasets
 
-| Dataset | Description | Size |
-|---------|-------------|------|
-| [**ZINC20-ML**](https://files.docking.org/zinc20-ML/) | Deep-learning-ready ZINC20 formats | 300M+ |
-| [**ChemPile**](https://huggingface.co/datasets/EMBL/chempile) | Mixture-of-expert chemical corpus | 75B+ tokens |
-| [**SmolInstruct**](https://huggingface.co/datasets/osunlp/SMolInstruct) | Instruction dataset from 15 chemistry tasks | 3.3M pairs |
+<div class="hub-dataset-grid">
+  <a class="hub-dataset-card" href="https://files.docking.org/zinc20-ML/" target="_blank" rel="noopener noreferrer">
+    <span class="hub-dataset-name">ZINC20-ML</span>
+    <span class="hub-dataset-desc">Deep-learning-ready ZINC20 formats</span>
+    <span class="hub-dataset-size">300M+</span>
+  </a>
+  <a class="hub-dataset-card" href="https://huggingface.co/datasets/EMBL/chempile" target="_blank" rel="noopener noreferrer">
+    <span class="hub-dataset-name">ChemPile</span>
+    <span class="hub-dataset-desc">Mixture-of-expert chemical corpus</span>
+    <span class="hub-dataset-size">75B+ tokens</span>
+  </a>
+  <a class="hub-dataset-card" href="https://huggingface.co/datasets/osunlp/SMolInstruct" target="_blank" rel="noopener noreferrer">
+    <span class="hub-dataset-name">SmolInstruct</span>
+    <span class="hub-dataset-desc">Instruction dataset from 15 chemistry tasks</span>
+    <span class="hub-dataset-size">3.3M pairs</span>
+  </a>
+</div>
 
 ---
 

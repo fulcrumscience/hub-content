@@ -3,13 +3,12 @@ const meta = {
   about: 'About',
   foundations: 'New to AI',
   domains: 'Resources by Domain',
-  'cross-domain': { display: 'hidden', title: 'Cross Domain' },
-  biology: 'Biology',
   chemistry: 'Chemistry',
-  'earth-climate': 'Earth & Climate',
+  biology: 'Biology',
   materials: 'Materials',
   physics: 'Physics',
-  README: 'AI4Science Hub Content'
+  'earth-climate': 'Earth & Climate',
+  README: { display: 'hidden' }
 }
 
 export default meta

@@ -94,41 +94,40 @@ ML-accelerated physics simulations — surrogate models for PDEs, CFD, turbulenc
 
 ## Datasets
 
-### CFD & PDE Benchmarks
-
-| Dataset | Description |
-|---------|-------------|
-| [**PDEBench**](https://github.com/pdebench/PDEBench) | Comprehensive benchmark for PDE solving with ML |
-| [**PDEArena**](https://microsoft.github.io/pdearena/) | PDE modeling benchmark suite |
-| [**BLASTNet**](https://github.com/blastnet/blastnet) | 744 full-domain samples of 3D turbulent flows |
-| [**JHTDB**](http://turbulence.pha.jhu.edu/) | Johns Hopkins Turbulence Database |
-| [**Airfoil CFD**](https://zenodo.org/records/7044183) | 2D compressible flow simulations (6K samples) |
-| [**DrivAerNet**](https://github.com/Mohamedelrefaie/DrivAerNet) | 4,000 car meshes with aerodynamic data |
-
-### Simulation Datasets
-
-| Dataset | Description |
-|---------|-------------|
-| [**MeshGraphNets Data**](https://github.com/deepmind/deepmind-research/tree/master/meshgraphnets) | DeepMind simulation datasets |
-| [**PhiFlow Examples**](https://github.com/tum-pbs/PhiFlow) | Physics simulation framework with data |
-
-### Particle & High-Energy Physics
-
-| Dataset | Description |
-|---------|-------------|
-| [**CERN Open Data**](https://opendata.cern.ch/) | LHC collision data and simulations |
-| [**CaloGAN**](https://ml4sci.lbl.gov/calogan) | Deep generative models for calorimeter simulations |
-| [**LHC Olympics**](https://ml4sci.lbl.gov/lhcolympics) | Anomaly detection challenge dataset |
-| [**Inference with DCTR**](https://ml4sci.lbl.gov/dctr) | Direct comparison to reference for inference |
-| [**Unfolding with OmniFold**](https://ml4sci.lbl.gov/omnifold) | ML-based unfolding for particle physics |
-
-### Cosmology & Astrophysics
-
-| Dataset | Description |
-|---------|-------------|
-| [**CosmoFlow**](https://ml4sci.lbl.gov/cosmoflow) | ~10,000 cosmological N-body dark matter simulations |
-| [**SDSS**](https://www.sdss.org/dr18/) | Sloan Digital Sky Survey imaging and spectra |
-| [**NASA Exoplanet Archive**](https://exoplanetarchive.ipac.caltech.edu/) | Confirmed exoplanets and candidates |
+<div class="hub-dataset-grid">
+  <a class="hub-dataset-card" href="https://github.com/pdebench/PDEBench" target="_blank" rel="noopener noreferrer">
+    <span class="hub-dataset-name">PDEBench</span>
+    <span class="hub-dataset-desc">Comprehensive benchmark for PDE solving with ML</span>
+  </a>
+  <a class="hub-dataset-card" href="https://microsoft.github.io/pdearena/" target="_blank" rel="noopener noreferrer">
+    <span class="hub-dataset-name">PDEArena</span>
+    <span class="hub-dataset-desc">PDE modeling benchmark suite</span>
+  </a>
+  <a class="hub-dataset-card" href="https://github.com/blastnet/blastnet" target="_blank" rel="noopener noreferrer">
+    <span class="hub-dataset-name">BLASTNet</span>
+    <span class="hub-dataset-desc">744 full-domain samples of 3D turbulent flows</span>
+  </a>
+  <a class="hub-dataset-card" href="http://turbulence.pha.jhu.edu/" target="_blank" rel="noopener noreferrer">
+    <span class="hub-dataset-name">JHTDB</span>
+    <span class="hub-dataset-desc">Johns Hopkins Turbulence Database</span>
+  </a>
+  <a class="hub-dataset-card" href="https://zenodo.org/records/7044183" target="_blank" rel="noopener noreferrer">
+    <span class="hub-dataset-name">Airfoil CFD</span>
+    <span class="hub-dataset-desc">2D compressible flow simulations (6K samples)</span>
+  </a>
+  <a class="hub-dataset-card" href="https://github.com/Mohamedelrefaie/DrivAerNet" target="_blank" rel="noopener noreferrer">
+    <span class="hub-dataset-name">DrivAerNet</span>
+    <span class="hub-dataset-desc">4,000 car meshes with aerodynamic data</span>
+  </a>
+  <a class="hub-dataset-card" href="https://github.com/deepmind/deepmind-research/tree/master/meshgraphnets" target="_blank" rel="noopener noreferrer">
+    <span class="hub-dataset-name">MeshGraphNets Data</span>
+    <span class="hub-dataset-desc">DeepMind simulation datasets</span>
+  </a>
+  <a class="hub-dataset-card" href="https://github.com/tum-pbs/PhiFlow" target="_blank" rel="noopener noreferrer">
+    <span class="hub-dataset-name">PhiFlow Examples</span>
+    <span class="hub-dataset-desc">Physics simulation framework with data</span>
+  </a>
+</div>
 
 ---
 

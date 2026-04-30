@@ -10,11 +10,38 @@
 
 ## Tutorials
 
-| Tutorial | Topics | Format |
-|----------|--------|--------|
-| [DeepChem Tutorials](https://deepchem.io/tutorials/) | GNNs, molecular property prediction | Jupyter |
-| [Scientific Computing for Chemists](https://weisscharlesj.github.io/SciCompforChemists/notebooks/introduction/intro.html) | Python basics, NumPy, Pandas | Jupyter |
-| [MolSSI Python Scripting](https://github.com/MolSSI-Education/python_scripting_cms) | Python for molecular sciences | Jupyter |
+<div class="hub-tutorial-list">
+  <a class="hub-tutorial-card" href="https://deepchem.io/tutorials/" target="_blank" rel="noopener noreferrer">
+    <div class="hub-tutorial-header">
+      <span class="hub-tutorial-title">DeepChem Tutorials</span>
+      <span class="hub-tutorial-format">Jupyter</span>
+    </div>
+    <div class="hub-tutorial-topics">
+      <span class="hub-tutorial-pill">GNNs</span>
+      <span class="hub-tutorial-pill">Molecular property prediction</span>
+    </div>
+  </a>
+  <a class="hub-tutorial-card" href="https://weisscharlesj.github.io/SciCompforChemists/notebooks/introduction/intro.html" target="_blank" rel="noopener noreferrer">
+    <div class="hub-tutorial-header">
+      <span class="hub-tutorial-title">Scientific Computing for Chemists</span>
+      <span class="hub-tutorial-format">Jupyter</span>
+    </div>
+    <div class="hub-tutorial-topics">
+      <span class="hub-tutorial-pill">Python basics</span>
+      <span class="hub-tutorial-pill">NumPy</span>
+      <span class="hub-tutorial-pill">Pandas</span>
+    </div>
+  </a>
+  <a class="hub-tutorial-card" href="https://github.com/MolSSI-Education/python_scripting_cms" target="_blank" rel="noopener noreferrer">
+    <div class="hub-tutorial-header">
+      <span class="hub-tutorial-title">MolSSI Python Scripting</span>
+      <span class="hub-tutorial-format">Jupyter</span>
+    </div>
+    <div class="hub-tutorial-topics">
+      <span class="hub-tutorial-pill">Python for molecular sciences</span>
+    </div>
+  </a>
+</div>
 
 ## Environment Setup
 

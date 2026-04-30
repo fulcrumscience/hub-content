@@ -3,10 +3,27 @@
 Retrosynthesis, forward prediction, atom mapping, and synthesis planning.
 
 <div class="hub-page-nav">
+  <a class="hub-page-nav-btn" href="#tutorials">Tutorials</a>
   <a class="hub-page-nav-btn" href="#tools">Tools</a>
   <a class="hub-page-nav-btn" href="#datasets">Datasets</a>
-  <a class="hub-page-nav-btn" href="#tutorials">Tutorials</a>
 </div>
+
+## Tutorials
+
+<div class="hub-tutorial-list">
+  <a class="hub-tutorial-card" href="https://github.com/schwallergroup/ai4chem_course" target="_blank" rel="noopener noreferrer">
+    <div class="hub-tutorial-header">
+      <span class="hub-tutorial-title">AI4Chemistry Course Labs</span>
+      <span class="hub-tutorial-format">Jupyter</span>
+    </div>
+    <div class="hub-tutorial-topics">
+      <span class="hub-tutorial-pill">Reaction prediction</span>
+      <span class="hub-tutorial-pill">Retrosynthesis</span>
+    </div>
+  </a>
+</div>
+
+---
 
 ## Tools
 
@@ -69,21 +86,28 @@ Retrosynthesis, forward prediction, atom mapping, and synthesis planning.
 
 ## Datasets
 
-| Dataset | Description |
-|---------|-------------|
-| [**USPTO**](https://figshare.com/articles/dataset/Chemical_reactions_from_US_patents_1976-Sep2016_/5104873) | Reactions from US patents 1976–2016 |
-| [**Open Reaction Database**](https://docs.open-reaction-database.org/en/latest/index.html) | Standardized open reaction data |
-| [**RDB7**](https://zenodo.org/record/6618262) | Atom-mapped SMILES with barrier heights and enthalpies |
-| [**Dreher-Doyle**](https://github.com/leojklarner/gauche/blob/main/data/reactions/dreher_doyle_science_aar5169.csv) | 3,955 Pd-catalyzed Buchwald-Hartwig reactions |
-| [**Perera (Suzuki)**](https://github.com/leojklarner/gauche/blob/main/data/reactions/suzuki_miyaura_data.csv) | 5,760 Pd-catalyzed Suzuki-Miyaura reactions |
-
----
-
-## Tutorials
-
-| Tutorial | Topics | Format |
-|----------|--------|--------|
-| [**AI4Chemistry Course Labs**](https://github.com/schwallergroup/ai4chem_course) | Reaction prediction, retrosynthesis | Jupyter |
+<div class="hub-dataset-grid">
+  <a class="hub-dataset-card" href="https://figshare.com/articles/dataset/Chemical_reactions_from_US_patents_1976-Sep2016_/5104873" target="_blank" rel="noopener noreferrer">
+    <span class="hub-dataset-name">USPTO</span>
+    <span class="hub-dataset-desc">Reactions from US patents 1976–2016</span>
+  </a>
+  <a class="hub-dataset-card" href="https://docs.open-reaction-database.org/en/latest/index.html" target="_blank" rel="noopener noreferrer">
+    <span class="hub-dataset-name">Open Reaction Database</span>
+    <span class="hub-dataset-desc">Standardized open reaction data</span>
+  </a>
+  <a class="hub-dataset-card" href="https://zenodo.org/record/6618262" target="_blank" rel="noopener noreferrer">
+    <span class="hub-dataset-name">RDB7</span>
+    <span class="hub-dataset-desc">Atom-mapped SMILES with barrier heights and enthalpies</span>
+  </a>
+  <a class="hub-dataset-card" href="https://github.com/leojklarner/gauche/blob/main/data/reactions/dreher_doyle_science_aar5169.csv" target="_blank" rel="noopener noreferrer">
+    <span class="hub-dataset-name">Dreher-Doyle</span>
+    <span class="hub-dataset-desc">3,955 Pd-catalyzed Buchwald-Hartwig reactions</span>
+  </a>
+  <a class="hub-dataset-card" href="https://github.com/leojklarner/gauche/blob/main/data/reactions/suzuki_miyaura_data.csv" target="_blank" rel="noopener noreferrer">
+    <span class="hub-dataset-name">Perera (Suzuki)</span>
+    <span class="hub-dataset-desc">5,760 Pd-catalyzed Suzuki-Miyaura reactions</span>
+  </a>
+</div>
 
 ---
 

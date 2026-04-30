@@ -11,25 +11,46 @@ ML-enhanced climate simulations, carbon flux monitoring, and environmental data.
 
 ### Carbon Flux & Ecosystem Data
 
-| Dataset | Description |
-|---------|-------------|
-| [**Ameriflux**](https://ml4sci.lbl.gov/ameriflux) | Carbon, water, and energy flux data across the Americas |
-| [**FLUXNET2015**](https://ml4sci.lbl.gov/fluxnet2015) | Global network of carbon flux measurements |
-| [**FLUXNET LaThuile**](https://ml4sci.lbl.gov/fluxnet_lathuile) | Earlier carbon flux synthesis dataset |
-| [**ESS-Dive**](https://ml4sci.lbl.gov/essdive) | Environmental Systems Science Data Infrastructure |
+<div class="hub-dataset-grid">
+  <a class="hub-dataset-card" href="https://ml4sci.lbl.gov/ameriflux" target="_blank" rel="noopener noreferrer">
+    <span class="hub-dataset-name">Ameriflux</span>
+    <span class="hub-dataset-desc">Carbon, water, and energy flux data across the Americas</span>
+  </a>
+  <a class="hub-dataset-card" href="https://ml4sci.lbl.gov/fluxnet2015" target="_blank" rel="noopener noreferrer">
+    <span class="hub-dataset-name">FLUXNET2015</span>
+    <span class="hub-dataset-desc">Global network of carbon flux measurements</span>
+  </a>
+  <a class="hub-dataset-card" href="https://ml4sci.lbl.gov/fluxnet_lathuile" target="_blank" rel="noopener noreferrer">
+    <span class="hub-dataset-name">FLUXNET LaThuile</span>
+    <span class="hub-dataset-desc">Earlier carbon flux synthesis dataset</span>
+  </a>
+  <a class="hub-dataset-card" href="https://ml4sci.lbl.gov/essdive" target="_blank" rel="noopener noreferrer">
+    <span class="hub-dataset-name">ESS-Dive</span>
+    <span class="hub-dataset-desc">Environmental Systems Science Data Infrastructure</span>
+  </a>
+</div>
 
 ### Climate Simulation
 
-| Dataset | Description |
-|---------|-------------|
-| [**ClimSim**](https://github.com/leap-stc/ClimSim) | Climate simulation dataset for ML emulation |
-| [**ERA5**](https://www.ecmwf.int/en/forecasts/datasets/reanalysis-datasets/era5) | Global atmospheric reanalysis data |
+<div class="hub-dataset-grid">
+  <a class="hub-dataset-card" href="https://github.com/leap-stc/ClimSim" target="_blank" rel="noopener noreferrer">
+    <span class="hub-dataset-name">ClimSim</span>
+    <span class="hub-dataset-desc">Climate simulation dataset for ML emulation</span>
+  </a>
+  <a class="hub-dataset-card" href="https://www.ecmwf.int/en/forecasts/datasets/reanalysis-datasets/era5" target="_blank" rel="noopener noreferrer">
+    <span class="hub-dataset-name">ERA5</span>
+    <span class="hub-dataset-desc">Global atmospheric reanalysis data</span>
+  </a>
+</div>
 
 ### Energy & Infrastructure
 
-| Dataset | Description |
-|---------|-------------|
-| [**Power Data Portal**](https://ml4sci.lbl.gov/power) | Energy and power grid data |
+<div class="hub-dataset-grid">
+  <a class="hub-dataset-card" href="https://ml4sci.lbl.gov/power" target="_blank" rel="noopener noreferrer">
+    <span class="hub-dataset-name">Power Data Portal</span>
+    <span class="hub-dataset-desc">Energy and power grid data</span>
+  </a>
+</div>
 
 ---
 

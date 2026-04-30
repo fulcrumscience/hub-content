@@ -3,28 +3,63 @@
 Machine learning interatomic potentials — training, evaluation, and deployment for atomistic simulations.
 
 <div class="hub-page-nav">
+  <a class="hub-page-nav-btn" href="#tutorials">Tutorials</a>
   <a class="hub-page-nav-btn" href="#tools">Tools</a>
   <a class="hub-page-nav-btn" href="#datasets">Datasets</a>
-  <a class="hub-page-nav-btn" href="#tutorials">Tutorials</a>
   <a class="hub-page-nav-btn" href="#awesome-lists">Awesome Lists</a>
 </div>
 
+## Tutorials
+
+<div class="hub-tutorial-list">
+  <a class="hub-tutorial-card" href="https://aronwalsh.github.io/MLforMaterials/Overview.html" target="_blank" rel="noopener noreferrer">
+    <div class="hub-tutorial-header">
+      <span class="hub-tutorial-title">ML for Materials Course</span>
+      <span class="hub-tutorial-format">Jupyter</span>
+    </div>
+    <div class="hub-tutorial-topics">
+      <span class="hub-tutorial-pill">Neural network potentials</span>
+      <span class="hub-tutorial-pill">Uncertainty</span>
+    </div>
+  </a>
+  <a class="hub-tutorial-card" href="https://github.com/lamalab-org/llm-tutorial" target="_blank" rel="noopener noreferrer">
+    <div class="hub-tutorial-header">
+      <span class="hub-tutorial-title">Transformers for Materials</span>
+      <span class="hub-tutorial-format">Jupyter</span>
+    </div>
+    <div class="hub-tutorial-topics">
+      <span class="hub-tutorial-pill">LLMs for materials science</span>
+    </div>
+  </a>
+</div>
+
+---
+
 ## Tools
 
-### Frameworks
+### Universal Potentials
 
 <div class="hub-tool-grid">
   <a class="hub-tool-card" href="https://github.com/ACEsuit/mace" target="_blank" rel="noopener noreferrer">
     <span class="hub-tool-name">MACE</span>
-    <span class="hub-tool-desc">Message passing, equivariant architecture</span>
-  </a>
-  <a class="hub-tool-card" href="https://github.com/mir-group/nequip" target="_blank" rel="noopener noreferrer">
-    <span class="hub-tool-name">NequIP</span>
-    <span class="hub-tool-desc">E(3)-equivariant interatomic potentials</span>
+    <span class="hub-tool-desc">Equivariant architecture with MACE-MP foundation models</span>
   </a>
   <a class="hub-tool-card" href="https://github.com/CederGroupHub/chgnet" target="_blank" rel="noopener noreferrer">
     <span class="hub-tool-name">CHGNet</span>
     <span class="hub-tool-desc">Universal potential for atomistic modeling</span>
+  </a>
+  <a class="hub-tool-card" href="https://github.com/MDIL-SNU/SevenNet" target="_blank" rel="noopener noreferrer">
+    <span class="hub-tool-name">SevenNet</span>
+    <span class="hub-tool-desc">Scalable equivariant interatomic network</span>
+  </a>
+</div>
+
+### Training Frameworks
+
+<div class="hub-tool-grid">
+  <a class="hub-tool-card" href="https://github.com/mir-group/nequip" target="_blank" rel="noopener noreferrer">
+    <span class="hub-tool-name">NequIP</span>
+    <span class="hub-tool-desc">E(3)-equivariant interatomic potentials</span>
   </a>
   <a class="hub-tool-card" href="https://github.com/atomistic-machine-learning/schnetpack" target="_blank" rel="noopener noreferrer">
     <span class="hub-tool-name">SchNetPack</span>
@@ -32,7 +67,7 @@ Machine learning interatomic potentials — training, evaluation, and deployment
   </a>
   <a class="hub-tool-card" href="https://github.com/mir-group/flare" target="_blank" rel="noopener noreferrer">
     <span class="hub-tool-name">FLARE</span>
-    <span class="hub-tool-desc">Fast and accurate interatomic potentials</span>
+    <span class="hub-tool-desc">Fast and accurate interatomic potentials with active learning</span>
   </a>
   <a class="hub-tool-card" href="https://github.com/FitSNAP/FitSNAP" target="_blank" rel="noopener noreferrer">
     <span class="hub-tool-name">FitSNAP</span>
@@ -41,10 +76,6 @@ Machine learning interatomic potentials — training, evaluation, and deployment
   <a class="hub-tool-card" href="https://github.com/learningmatter-mit/NeuralForceField" target="_blank" rel="noopener noreferrer">
     <span class="hub-tool-name">NeuralForceField</span>
     <span class="hub-tool-desc">PyTorch-based force field</span>
-  </a>
-  <a class="hub-tool-card" href="https://github.com/MDIL-SNU/SevenNet" target="_blank" rel="noopener noreferrer">
-    <span class="hub-tool-name">SevenNet</span>
-    <span class="hub-tool-desc">Scalable equivariant interatomic network</span>
   </a>
 </div>
 
@@ -92,32 +123,43 @@ Machine learning interatomic potentials — training, evaluation, and deployment
 
 ### Large-Scale Computational Datasets
 
-| Dataset | Description | Size |
-|---------|-------------|------|
-| [**OMat24**](https://huggingface.co/datasets/fairchem/OMAT24) | DFT for inorganic crystals (Meta) | 110M entries |
-| [**LeMat-Bulk**](https://huggingface.co/datasets/LeMaterial/LeMat-Bulk) | Inorganic material structures | 6.7M structures |
-| [**LeMat-Traj**](https://huggingface.co/datasets/LeMaterial/LeMat-Traj) | Inorganic material trajectories | 113M trajectories |
-| [**MatPES**](https://matpes.ai/) | Structures from 300K MD simulations | ~400K structures |
-| [**MP-ALOE**](https://figshare.com/) | r2SCAN DFT for universal MLIPs | ~1M calculations |
-| [**Open Catalyst 2020**](https://opencatalystproject.org/) | Surface relaxations for catalysis | 1.2M relaxations |
-
-### Molecular QM Datasets
-
-| Dataset | Description | Size |
-|---------|-------------|------|
-| [**OMol25**](https://huggingface.co/facebook/OMol25) | Molecular chemistry DFT (Meta) | 100M+ calculations |
-| [**ANI-1x/1ccx**](https://qcawebapps.molssi.org/ml_datasets/) | DFT + CCSD calculations | 5M + 0.5M |
-| [**PubChemQCR**](https://huggingface.co/datasets/divelab/PubChemQCR) | Relaxation trajectories | 3.5M trajectories |
-| [**Carbon Data**](https://github.com/jla-gardner/carbon-data) | Carbon trajectories | 22.9M atoms |
-
----
-
-## Tutorials
-
-| Tutorial | Topics | Format |
-|----------|--------|--------|
-| [**ML for Materials Course**](https://aronwalsh.github.io/MLforMaterials/Overview.html) | Neural network potentials, uncertainty | Jupyter |
-| [**Transformers for Materials**](https://github.com/lamalab-org/llm-tutorial) | LLMs for materials science | Jupyter |
+<div class="hub-dataset-grid">
+  <a class="hub-dataset-card" href="https://huggingface.co/datasets/fairchem/OMAT24" target="_blank" rel="noopener noreferrer">
+    <span class="hub-dataset-name">OMat24</span>
+    <span class="hub-dataset-desc">DFT for inorganic crystals (Meta)</span>
+    <span class="hub-dataset-size">110M entries</span>
+  </a>
+  <a class="hub-dataset-card" href="https://huggingface.co/datasets/LeMaterial/LeMat-Bulk" target="_blank" rel="noopener noreferrer">
+    <span class="hub-dataset-name">LeMat-Bulk</span>
+    <span class="hub-dataset-desc">Inorganic material structures</span>
+    <span class="hub-dataset-size">6.7M structures</span>
+  </a>
+  <a class="hub-dataset-card" href="https://huggingface.co/datasets/LeMaterial/LeMat-Traj" target="_blank" rel="noopener noreferrer">
+    <span class="hub-dataset-name">LeMat-Traj</span>
+    <span class="hub-dataset-desc">Inorganic material trajectories</span>
+    <span class="hub-dataset-size">113M trajectories</span>
+  </a>
+  <a class="hub-dataset-card" href="https://matpes.ai/" target="_blank" rel="noopener noreferrer">
+    <span class="hub-dataset-name">MatPES</span>
+    <span class="hub-dataset-desc">Structures from 300K MD simulations</span>
+    <span class="hub-dataset-size">~400K structures</span>
+  </a>
+  <a class="hub-dataset-card" href="https://figshare.com/" target="_blank" rel="noopener noreferrer">
+    <span class="hub-dataset-name">MP-ALOE</span>
+    <span class="hub-dataset-desc">r2SCAN DFT for universal MLIPs</span>
+    <span class="hub-dataset-size">~1M calculations</span>
+  </a>
+  <a class="hub-dataset-card" href="https://opencatalystproject.org/" target="_blank" rel="noopener noreferrer">
+    <span class="hub-dataset-name">Open Catalyst 2020</span>
+    <span class="hub-dataset-desc">Surface relaxations for catalysis</span>
+    <span class="hub-dataset-size">1.2M relaxations</span>
+  </a>
+  <a class="hub-dataset-card" href="https://github.com/jla-gardner/carbon-data" target="_blank" rel="noopener noreferrer">
+    <span class="hub-dataset-name">Carbon Data</span>
+    <span class="hub-dataset-desc">Carbon trajectories</span>
+    <span class="hub-dataset-size">22.9M atoms</span>
+  </a>
+</div>
 
 ---
 

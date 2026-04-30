@@ -29,18 +29,6 @@ Structure prediction tools, multimer prediction, and structural databases.
     <span class="hub-tool-name">ColabFold</span>
     <span class="hub-tool-desc">Community notebooks for AF2, ESMFold, RoseTTAFold</span>
   </a>
-  <a class="hub-tool-card" href="https://github.com/aqlaboratory/openfold" target="_blank" rel="noopener noreferrer">
-    <span class="hub-tool-name">OpenFold</span>
-    <span class="hub-tool-desc">PyTorch reimplementation of AlphaFold2</span>
-  </a>
-  <a class="hub-tool-card" href="https://github.com/RosettaCommons/RoseTTAFold" target="_blank" rel="noopener noreferrer">
-    <span class="hub-tool-name">RoseTTAFold</span>
-    <span class="hub-tool-desc">Three-track neural network for structure</span>
-  </a>
-  <a class="hub-tool-card" href="https://github.com/HeliXonProtein/OmegaFold" target="_blank" rel="noopener noreferrer">
-    <span class="hub-tool-name">OmegaFold</span>
-    <span class="hub-tool-desc">Single-sequence structure prediction</span>
-  </a>
   <a class="hub-tool-card" href="https://github.com/jwohlwend/boltz" target="_blank" rel="noopener noreferrer">
     <span class="hub-tool-name">Boltz-1</span>
     <span class="hub-tool-desc">Unified prediction for proteins, RNA, DNA, ligands</span>
@@ -48,6 +36,18 @@ Structure prediction tools, multimer prediction, and structural databases.
   <a class="hub-tool-card" href="https://github.com/chaidiscovery/chai-lab" target="_blank" rel="noopener noreferrer">
     <span class="hub-tool-name">Chai-1</span>
     <span class="hub-tool-desc">Proteins, small molecules, DNA, RNA with restraints</span>
+  </a>
+  <a class="hub-tool-card" href="https://github.com/RosettaCommons/RoseTTAFold" target="_blank" rel="noopener noreferrer">
+    <span class="hub-tool-name">RoseTTAFold</span>
+    <span class="hub-tool-desc">Three-track neural network for structure</span>
+  </a>
+  <a class="hub-tool-card" href="https://github.com/aqlaboratory/openfold" target="_blank" rel="noopener noreferrer">
+    <span class="hub-tool-name">OpenFold</span>
+    <span class="hub-tool-desc">PyTorch reimplementation of AlphaFold2</span>
+  </a>
+  <a class="hub-tool-card" href="https://github.com/HeliXonProtein/OmegaFold" target="_blank" rel="noopener noreferrer">
+    <span class="hub-tool-name">OmegaFold</span>
+    <span class="hub-tool-desc">Single-sequence structure prediction</span>
   </a>
 </div>
 
@@ -97,14 +97,47 @@ Structure prediction tools, multimer prediction, and structural databases.
 
 ## Datasets
 
-| Dataset | Description | Size |
-|---------|-------------|------|
-| [**AlphaFold DB**](https://alphafold.ebi.ac.uk/) | Predicted protein structures | 200M+ structures |
-| [**PDB**](https://www.rcsb.org/) | Experimental structures | 200K+ |
-| [**UniProt**](https://www.uniprot.org/) | Protein sequences & functions | 250M+ |
-| [**CATH**](https://www.cathdb.info/) | Protein domain classification | — |
-| [**Human Protein Atlas**](https://www.proteinatlas.org/) | Protein expression data | — |
-| [**Uniclust**](https://uniclust.mmseqs.com/) | Clustered protein sequences | — |
+### Structures
+
+<div class="hub-dataset-grid">
+  <a class="hub-dataset-card" href="https://www.rcsb.org/" target="_blank" rel="noopener noreferrer">
+    <span class="hub-dataset-name">PDB</span>
+    <span class="hub-dataset-desc">Experimental structures</span>
+    <span class="hub-dataset-size">200K+</span>
+  </a>
+  <a class="hub-dataset-card" href="https://alphafold.ebi.ac.uk/" target="_blank" rel="noopener noreferrer">
+    <span class="hub-dataset-name">AlphaFold DB</span>
+    <span class="hub-dataset-desc">Predicted protein structures</span>
+    <span class="hub-dataset-size">200M+ structures</span>
+  </a>
+</div>
+
+### Sequences
+
+<div class="hub-dataset-grid">
+  <a class="hub-dataset-card" href="https://www.uniprot.org/" target="_blank" rel="noopener noreferrer">
+    <span class="hub-dataset-name">UniProt</span>
+    <span class="hub-dataset-desc">Protein sequences & functions</span>
+    <span class="hub-dataset-size">250M+</span>
+  </a>
+  <a class="hub-dataset-card" href="https://uniclust.mmseqs.com/" target="_blank" rel="noopener noreferrer">
+    <span class="hub-dataset-name">Uniclust</span>
+    <span class="hub-dataset-desc">Clustered protein sequences</span>
+  </a>
+</div>
+
+### Classification & Annotation
+
+<div class="hub-dataset-grid">
+  <a class="hub-dataset-card" href="https://www.cathdb.info/" target="_blank" rel="noopener noreferrer">
+    <span class="hub-dataset-name">CATH</span>
+    <span class="hub-dataset-desc">Protein domain classification</span>
+  </a>
+  <a class="hub-dataset-card" href="https://www.proteinatlas.org/" target="_blank" rel="noopener noreferrer">
+    <span class="hub-dataset-name">Human Protein Atlas</span>
+    <span class="hub-dataset-desc">Protein expression data</span>
+  </a>
+</div>
 
 ---
 

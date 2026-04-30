@@ -84,23 +84,55 @@ High-throughput screening, generative models for crystal structure prediction, a
 
 ### Major Databases
 
-| Dataset | Description | Size |
-|---------|-------------|------|
-| [**Materials Project**](https://materialsproject.org/) | DFT calculations, properties | 500K+ materials |
-| [**AFLOW**](http://www.aflowlib.org/) | Crystal structures, properties | 3.5M+ entries |
-| [**OQMD**](http://oqmd.org/) | Open Quantum Materials Database | 1M+ entries |
-| [**Crystallography Open Database**](http://www.crystallography.net/cod/) | Open-access crystal structures | 525K+ |
-| [**ICSD**](https://icsd.products.fiz-karlsruhe.de/) | Inorganic experimental structures | ~290K |
-| [**CSD**](https://www.ccdc.cam.ac.uk/) | Organic crystal structures (Cambridge) | ~1.3M |
+<div class="hub-dataset-grid">
+  <a class="hub-dataset-card" href="https://materialsproject.org/" target="_blank" rel="noopener noreferrer">
+    <span class="hub-dataset-name">Materials Project</span>
+    <span class="hub-dataset-desc">DFT calculations, properties</span>
+    <span class="hub-dataset-size">500K+ materials</span>
+  </a>
+  <a class="hub-dataset-card" href="http://www.aflowlib.org/" target="_blank" rel="noopener noreferrer">
+    <span class="hub-dataset-name">AFLOW</span>
+    <span class="hub-dataset-desc">Crystal structures, properties</span>
+    <span class="hub-dataset-size">3.5M+ entries</span>
+  </a>
+  <a class="hub-dataset-card" href="http://oqmd.org/" target="_blank" rel="noopener noreferrer">
+    <span class="hub-dataset-name">OQMD</span>
+    <span class="hub-dataset-desc">Open Quantum Materials Database</span>
+    <span class="hub-dataset-size">1M+ entries</span>
+  </a>
+  <a class="hub-dataset-card" href="http://www.crystallography.net/cod/" target="_blank" rel="noopener noreferrer">
+    <span class="hub-dataset-name">Crystallography Open Database</span>
+    <span class="hub-dataset-desc">Open-access crystal structures</span>
+    <span class="hub-dataset-size">525K+</span>
+  </a>
+  <a class="hub-dataset-card" href="https://icsd.products.fiz-karlsruhe.de/" target="_blank" rel="noopener noreferrer">
+    <span class="hub-dataset-name">ICSD</span>
+    <span class="hub-dataset-desc">Inorganic experimental structures</span>
+    <span class="hub-dataset-size">~290K</span>
+  </a>
+  <a class="hub-dataset-card" href="https://www.ccdc.cam.ac.uk/" target="_blank" rel="noopener noreferrer">
+    <span class="hub-dataset-name">CSD</span>
+    <span class="hub-dataset-desc">Organic crystal structures (Cambridge)</span>
+    <span class="hub-dataset-size">~1.3M</span>
+  </a>
+</div>
 
 ### Specialized
 
-| Dataset | Focus |
-|---------|-------|
-| [**CoRE MOF 2024**](https://www.ccdc.cam.ac.uk/) | Metal-organic frameworks |
-| [**Hydrogen Storage Materials DB**](https://datahub.hymarc.org/dataset/hydrogen-storage-materials-db) | Hydrogen capacity data |
-| [**BOOM**](https://github.com/FLASK-LLNL/BOOM) | Out-of-distribution molecules (10+ tasks) |
-| [**OMC25**](https://huggingface.co/facebook/OMC25) | Molecular crystal structures (27M+) |
+<div class="hub-dataset-grid">
+  <a class="hub-dataset-card" href="https://www.ccdc.cam.ac.uk/" target="_blank" rel="noopener noreferrer">
+    <span class="hub-dataset-name">CoRE MOF 2024</span>
+    <span class="hub-dataset-desc">Metal-organic frameworks</span>
+  </a>
+  <a class="hub-dataset-card" href="https://datahub.hymarc.org/dataset/hydrogen-storage-materials-db" target="_blank" rel="noopener noreferrer">
+    <span class="hub-dataset-name">Hydrogen Storage Materials DB</span>
+    <span class="hub-dataset-desc">Hydrogen capacity data</span>
+  </a>
+  <a class="hub-dataset-card" href="https://huggingface.co/facebook/OMC25" target="_blank" rel="noopener noreferrer">
+    <span class="hub-dataset-name">OMC25</span>
+    <span class="hub-dataset-desc">Molecular crystal structures (27M+)</span>
+  </a>
+</div>
 
 ---
 

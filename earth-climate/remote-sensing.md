@@ -10,13 +10,13 @@ Remote sensing applies ML to satellite and aerial imagery for land cover classif
 
 ## Datasets
 
-| Dataset | Description |
-|---------|-------------|
-| [**ML4Sci Datasets**](https://ml4sci.lbl.gov/datasets) | Berkeley Lab's curated scientific ML datasets |
-| [**Berkeley Data Cloud**](https://ml4sci.lbl.gov/bdc) | Scalable scientific data management |
-
-### Transportation & Autonomy
-
-| Dataset | Description |
-|---------|-------------|
-| [**Flow**](https://ml4sci.lbl.gov/flow) | Deep RL framework for mixed autonomy traffic |
+<div class="hub-dataset-grid">
+  <a class="hub-dataset-card" href="https://ml4sci.lbl.gov/datasets" target="_blank" rel="noopener noreferrer">
+    <span class="hub-dataset-name">ML4Sci Datasets</span>
+    <span class="hub-dataset-desc">Berkeley Lab's curated scientific ML datasets</span>
+  </a>
+  <a class="hub-dataset-card" href="https://ml4sci.lbl.gov/bdc" target="_blank" rel="noopener noreferrer">
+    <span class="hub-dataset-name">Berkeley Data Cloud</span>
+    <span class="hub-dataset-desc">Scalable scientific data management</span>
+  </a>
+</div>
