@@ -1,29 +1,18 @@
-# Foundations
+# New to AI
 
-Build the core skills needed for AI in science — from programming basics to machine learning fundamentals.
+Resources for getting started with AI and machine learning in science.
 
-## Overview
-
-Before diving into domain-specific applications, you'll need solid foundations in:
-
-- **Programming** — Python is the lingua franca of scientific computing
-- **Version Control** — Git for reproducible research
-- **Machine Learning** — Core concepts and neural networks
-- **Research Practices** — Reproducibility and collaboration
-
-## Quick Start
-
-| Your Background | Start Here |
-|-----------------|------------|
-| New to programming | [Resources](/foundations/resources) — Python basics |
-| Know Python, new to ML | [Resources](/foundations/resources) — Neural Networks: Zero to Hero |
-| Ready for hands-on | [Tutorials](/foundations/tutorials) |
-
-## Recommended Learning Path
-
-1. **Start with Python basics** if you're new to programming
-2. **Learn version control** early — it will save you countless headaches
-3. **Move to ML fundamentals** once you're comfortable with Python
-4. **Apply to your domain** using the topic-specific resources
-
-> **Pro tip:** Don't try to learn everything at once. Pick one resource from each category and work through it completely before moving on.
+<div class="hub-topics hub-topics--single">
+  <a class="hub-topic-tile" href="/foundations/new-to-programming">
+    <span class="hub-topic-name">New to Programming</span>
+    <span class="hub-topic-desc">Python basics, version control, and data science tools</span>
+  </a>
+  <a class="hub-topic-tile" href="/foundations/new-to-machine-learning">
+    <span class="hub-topic-name">New to Machine Learning</span>
+    <span class="hub-topic-desc">ML fundamentals, scikit-learn, and best practices</span>
+  </a>
+  <a class="hub-topic-tile" href="/foundations/ready-for-hands-on">
+    <span class="hub-topic-name">Ready for Hands-On</span>
+    <span class="hub-topic-desc">Deep learning frameworks, tutorials, and environment setup</span>
+  </a>
+</div>

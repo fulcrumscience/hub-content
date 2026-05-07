@@ -1,25 +1,23 @@
+---
+breadcrumb: false
+type: page
+---
+
 # Earth & Climate Science
 
 AI and machine learning for climate modeling, weather prediction, and environmental research.
 
-## Overview
-
-ML is increasingly important for understanding Earth systems:
-
-- **Climate Modeling** — ML-enhanced climate simulations
-- **Weather Prediction** — Neural network weather forecasts
-- **Remote Sensing** — Satellite data analysis
-- **Environmental Monitoring** — Ecosystem and biodiversity tracking
-
----
-
-## Coming Soon
-
-We're actively developing resources for:
-
-- **Climate ML** — Models for climate prediction and analysis
-- **Weather Forecasting** — Neural weather prediction systems
-- **Earth Observation** — Satellite and remote sensing ML
-- **Environmental Science** — Biodiversity, ecology, conservation
-
-> **Want to contribute?** If you have resources to share for earth and climate science AI/ML, we'd love to include them.
+<div class="hub-topics">
+  <a class="hub-topic-tile" href="/earth-climate/climate-modeling">
+    <span class="hub-topic-name">Climate Modeling</span>
+    <span class="hub-topic-desc">ML-enhanced climate simulations and prediction</span>
+  </a>
+  <a class="hub-topic-tile" href="/earth-climate/weather-forecasting">
+    <span class="hub-topic-name">Weather Forecasting</span>
+    <span class="hub-topic-desc">Neural network weather models</span>
+  </a>
+  <a class="hub-topic-tile" href="/earth-climate/remote-sensing">
+    <span class="hub-topic-name">Remote Sensing</span>
+    <span class="hub-topic-desc">Satellite imagery and Earth observation</span>
+  </a>
+</div>

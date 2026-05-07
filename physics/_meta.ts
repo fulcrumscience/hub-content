@@ -1,7 +1,8 @@
 const meta = {
-  index: 'Overview',
-  resources: 'Resources',
-  datasets: 'Datasets'
+  index: { display: 'hidden', title: 'Overview' },
+  simulation: 'Simulation & SciML',
+  'high-energy-physics': 'High Energy & Astrophysics',
+  'symbolic-regression': 'Symbolic Regression',
+  quantum: 'Quantum Systems'
 }
-
 export default meta

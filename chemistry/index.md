@@ -1,34 +1,27 @@
-# Chemistry & Cheminformatics
+---
+breadcrumb: false
+type: page
+---
+
+# Chemistry
 
 AI and machine learning applications in chemistry — from molecular representations to reaction prediction.
 
-## Overview
-
-Chemistry is one of the most active domains for AI applications in science. Key areas include:
-
-- **Cheminformatics** — Representing, searching, and analyzing chemical data
-- **Reaction Prediction** — Predicting products and retrosynthesis
-- **Molecular Generation** — Designing new molecules with desired properties
-- **Property Prediction** — QSAR/QSPR modeling
-
-## Quick Start
-
-| Goal | Resource |
-|------|----------|
-| Learn cheminformatics basics | [Tutorials](/chemistry/tutorials) — Practical Cheminformatics |
-| Take a structured course | [Resources](/chemistry/resources) — AI4Chemistry (EPFL) |
-| Explore tools | [Tools](/chemistry/tools) — RDKit, DeepChem |
-| Find datasets | [Datasets](/chemistry/datasets) |
-
-## Key Research Groups
-
-- **Schwaller Group** (EPFL) — Reaction prediction, LLMs
-- **Coley Group** (MIT) — Synthesis planning, ML
-- **Reiher Group** (ETH) — Quantum chemistry, automation
-
-## Communities
-
-| Community | Platform | Link |
-|-----------|----------|------|
-| RDKit | Mailing List | [rdkit.org](https://www.rdkit.org/docs/Overview.html#community) |
-| DeepChem | Discord | [deepchem.io](https://deepchem.io/) |
+<div class="hub-topics">
+  <a class="hub-topic-tile" href="/chemistry/cheminformatics">
+    <span class="hub-topic-name">Cheminformatics</span>
+    <span class="hub-topic-desc">Molecular representations, property prediction, QSAR</span>
+  </a>
+  <a class="hub-topic-tile" href="/chemistry/molecular-generation">
+    <span class="hub-topic-name">Molecular Generation</span>
+    <span class="hub-topic-desc">Generative models for drug and material design</span>
+  </a>
+  <a class="hub-topic-tile" href="/chemistry/reaction-prediction">
+    <span class="hub-topic-name">Reaction Prediction</span>
+    <span class="hub-topic-desc">Retrosynthesis, forward prediction, synthesis planning</span>
+  </a>
+  <a class="hub-topic-tile" href="/chemistry/quantum-chemistry">
+    <span class="hub-topic-name">Quantum Chemistry</span>
+    <span class="hub-topic-desc">DFT, force fields, molecular simulation</span>
+  </a>
+</div>

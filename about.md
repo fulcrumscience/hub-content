@@ -1,6 +1,13 @@
 # About AI4Science Hub
 
-A curated collection of resources for applying AI and machine learning to scientific research.
+<div class="hub-page-nav">
+  <a class="hub-page-nav-btn" href="#mission">Mission</a>
+  <a class="hub-page-nav-btn" href="#what-we-curate">What We Curate</a>
+  <a class="hub-page-nav-btn" href="#philosophy">Philosophy</a>
+  <a class="hub-page-nav-btn" href="#contributing">Contributing</a>
+  <a class="hub-page-nav-btn" href="#acknowledgments">Acknowledgments</a>
+  <a class="hub-page-nav-btn" href="#license">License</a>
+</div>
 
 ## Mission
 
@@ -14,6 +21,8 @@ The AI4Science Hub exists to lower the barrier for researchers entering the inte
 - **Communities** — Places to connect and collaborate
 - **Tools & Datasets** — Essential software and data resources
 
+Tools are ordered by adoption (what to reach for first); datasets are grouped by use case. Sections with many items are split into subsections to keep scanning easy.
+
 ## Philosophy
 
 1. **Quality over quantity** — We'd rather have 10 excellent resources than 100 mediocre ones
@@ -25,22 +34,30 @@ The AI4Science Hub exists to lower the barrier for researchers entering the inte
 
 This is an open resource. We welcome contributions from the community.
 
-### How to Contribute
+Content lives in the [hub-content](https://github.com/fulcrumscience/hub-content) repository. To add or update a resource:
 
-1. **Add a resource** — Open a pull request with the new material
-2. **Fix an error** — Issues and PRs welcome
-3. **Suggest improvements** — Open a discussion
+1. Fork the repo, find the appropriate topic file, and add your resource following the existing format
+2. Open a pull request with a descriptive title (e.g. "Add AlphaFold tutorial to biology/tutorials") and a short note on why the resource is valuable
 
-### Contribution Guidelines
+### Guidelines
 
-- Resources should be high quality and actively maintained
-- Prefer open-access materials
-- Include a brief description of what makes the resource valuable
-- Check that links work
+- **Quality over quantity** — Only submit resources that are genuinely valuable
+- **Prefer open access** — Free, openly available materials are preferred
+- **Check your links** — Ensure all URLs work before submitting
+- **Include context** — Add a brief description explaining what makes the resource useful
+- **Active maintenance** — Resources should be actively maintained (no abandoned projects)
 
-[Contribute on GitHub →](https://github.com/yourusername/ai4science-hub)
+### What makes a good contribution
 
----
+- Courses from reputable universities or research groups
+- Tutorials with working code and clear explanations
+- Tools that are well-documented and widely used
+- Datasets with clear licensing and documentation
+- Blog posts with unique insights or practical guidance
+
+### Reporting issues
+
+Open an issue for broken links, outdated information, or suggestions for new topics or restructuring.
 
 ## Acknowledgments
 
@@ -51,8 +68,6 @@ Special thanks to:
 - The open source chemistry and materials communities
 - Everyone who contributes to making science more accessible
 
----
-
 ## License
 
-The site code is open source under MIT license.
+The site code and content are open source under the MIT license.

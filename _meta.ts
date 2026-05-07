@@ -1,14 +1,14 @@
 const meta = {
   index: 'Home',
-  foundations: 'Foundations',
-  methods: 'Methods',
-  tools: 'Tools',
-  biology: 'Biology',
+  about: 'About',
+  foundations: 'New to AI',
+  domains: 'Resources by Domain',
   chemistry: 'Chemistry',
-  'earth-climate': 'Earth & Climate',
+  biology: 'Biology',
   materials: 'Materials',
   physics: 'Physics',
-  about: 'About'
+  'earth-climate': 'Earth & Climate',
+  README: { display: 'hidden' }
 }
 
 export default meta
